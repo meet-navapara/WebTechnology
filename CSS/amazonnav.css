@@ -1,0 +1,285 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html,body
+{
+    width: 100%;
+}
+
+header
+{
+    z-index: 1;
+    position: sticky;
+    top: 0px;
+    /* margin-top: 10px; */
+    height: 120px;
+    width: 100%;
+   
+}
+header .firsthalf
+{
+    display: flex;
+}
+header .firsthalf .logo
+{margin-top: 20px;
+    margin-left: 6px;
+    height: 30px;
+    width: 140px;
+}
+header .logo img
+{
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
+    /* cursor: crosshair; */
+}
+
+header .firsthalf
+{
+    display: flex;
+    justify-content: space-between;
+    height: 50%;
+    width: 100%;
+    background-color:#131921;
+}
+
+header .firsthalf .location
+{
+    margin-top: 15px;
+  margin-left: 15px;
+    height: 60px;
+    width: 260px;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+   
+}
+header .firsthalf .location .l-logo
+{
+
+    /* border: 1px solid blue; */
+    margin-top: -17px;
+    height: 60px;
+    width: 20px;
+    margin-right: -19px;
+    align-items: center;
+
+}
+.location .content h3
+{
+    font-size: 15px;
+}
+.location .content
+{
+    margin-right: 26px;
+}
+.logo
+{
+    font-size: 30px;
+    color: white;
+}
+header .firsthalf .content
+{
+    color: white;
+    /* display: block; */
+}
+
+header .firsthalf .search
+{
+    /* position: relative; */
+    /* top: -12px;/ */
+    margin-top: 4px;
+    height: 50px;
+    width: 850px;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+   
+}
+.search input
+{
+    width: 850px;
+    border-radius: 10px;
+    /* padding: 30px; */
+    outline: none;
+    padding-left: 50px;
+}
+.search input::placeholder
+{
+    margin-left: 40px ;
+    font-size: 15px;
+    font-weight: 200;
+}
+.search select
+{
+    border: none;
+    height: 45px;
+    outline: none;
+    position: relative;
+    width: 40px;
+    left: 39px;
+    top: 2px;
+    background-color: lightgray;
+    border-radius: 10px 0px 0px 10px;
+}
+
+.buttonedit
+{
+    font-weight: bold;
+    font-size: x-large;
+    color: #4e453a;
+}
+.search button
+{
+    position: relative;
+    border-radius: 0px 10px 10px 0px;
+    right: 55px;
+    top: 2px;
+    width: 60px;
+    border: none;
+    height: 94%;
+    background-color: #febd69;
+}
+.india
+{
+    margin-left: -20px;
+    margin-top: 13px;
+    display: flex;
+    height: 30px;
+    width: 55px;
+    /* border: 1px solid red; */
+}
+.india .img
+{
+    margin-top: 10px;
+    height: 20px;
+    width: 30px;
+}
+.india .img img
+{
+    height: 100%;
+    width: 100%;
+}
+.india div select
+{
+    margin-top: 11px;
+    color: rgb(245, 245, 239);
+    background-color:#131921;
+    font-size: 13px;
+    width: 40px;
+    border: none;
+    /* margin-left: 20px; */
+}
+.accountlist
+{
+    height: 60px;
+    width: 150px;
+    margin-top: 18px;
+    margin-left: 15px;
+}
+.accountlist h6 , .accountlist h2
+{
+    color: white;
+}
+.accountlist h2{
+    font-size: 15px;
+}
+.Return
+{
+    height: 60px;
+    width: 150px;
+    margin-top: 18px;
+    margin-left: 25px;
+}
+.Return h6 , .Return h2
+{
+    color: white;
+}
+.Return  h2{
+    font-size: 15px;
+}
+.cart
+{
+    margin-right: 16px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+    width: 100px;
+    /* border: 1px solid red; */
+}
+.cart .cartlogo
+{
+    margin-top: 10px;
+    height: 100%;
+    width: 50%;
+
+}
+.cart .cartlogo img
+{
+    height: 100%;
+    width: 100%;
+}
+
+.cartedit
+{
+    color: rgb(252, 252, 249);
+    font-size: 35px;
+}
+.cart .cart-content
+{
+    height: 100%;
+    width: 48%;
+
+}
+.cart-content h4
+{
+    margin-left: -3px;
+    margin-top: 25px;
+    color: white;
+}
+
+.bar
+{
+    font-size: 25px;
+    color: white;
+}
+.secondhalf
+{
+    height: 50px;
+    width: 100%;
+    background-color:#232f3e ;
+    display: flex;
+}
+.secondhalf i
+{
+    margin-left: 20px;
+    margin-top: 10px;
+    display: flex;
+}
+.secondhalf ul li{
+    font-weight: 400;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    margin-top: 13px;
+    display: inline-block;
+    padding-left: 25px;
+  
+}
+.secondhalf ul li select
+{
+    border: none;
+    background-color:#232f3e ;
+    color: white;
+    font-weight: 400;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 16px;
+
+}
+.margin
+{
+    margin-left:-10px ;
+}

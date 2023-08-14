@@ -1,0 +1,365 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+html,body
+{
+    width: 100%;
+}
+
+.MainSection
+{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.499),rgba(0, 0, 0, 0.499)) , url("https://bootstrapmade.com/demo/templates/Append/assets/img/hero-bg.jpg");
+    height: 900px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+}
+
+.MainSection nav
+{
+    position: absolute;
+    top: 30px;
+    /* margin-top: 30px; */
+    display: flex;
+    /* position: fixed;      */
+    top: 30px;
+}
+.MainSection .logo
+{
+    margin-left: 50px;
+    font-size: 30px;
+    color: rgb(179, 176, 176);
+    font-weight: bold;
+    display: flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.MainSection ul 
+{
+    display: flex;
+    margin-left: 270px;
+}
+
+.MainSection nav ul li 
+{
+
+    text-decoration: none;
+    color: rgb(179, 176, 176);
+    display: inline-block;
+    justify-content: space-evenly;
+    padding: 14px;
+    font-size: 16px;
+    transition: all 1s;
+}
+.MainSection nav ul li a
+{
+    text-decoration: none;
+    color: white;
+    transition: all 2s;
+}
+.MainSection nav button
+{
+    margin-left: 300px;
+    border-radius: 8px;
+    height: 45px;
+    background-color: #e84545;
+    padding: 5px 30px;
+    color: white;
+    font-weight: bold;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: none;
+    transition-duration: 1s;
+}
+.MainSection .content
+{
+    padding: 30px;
+    height: 400px;
+    width: 800px;
+    /* border: 1px solid white; */
+}
+.content h1{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-bottom: 10px;
+    font-size: 46px;
+    color: white;
+    font-weight: bold;
+}
+.content p
+{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+
+}
+.content
+{
+    position: absolute;
+    top: 300px;
+    left: 100px;
+}
+
+.section1
+{
+    
+   
+    height: 65px;
+    width: 500px;
+    background-color: white;
+    border-radius: 5px;
+    position: relative;
+}
+.section1 input{
+    width: 100%;
+    height: 100%;
+    padding: 27px;
+    border-radius: 5px;
+    border: none;
+
+}
+.section1 .child button
+{
+    border-radius: 8px;
+    height: 74%;
+    background-color: #e84545;
+    padding: 5px 30px;
+    color: white;
+    font-weight: bold;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: none;
+    position: absolute;
+    top: 9px;
+    right: 6px;
+}
+/* .section1 end */
+
+/* .section2/ start */
+
+
+.section2{
+   
+    margin: 200px 200px;
+    height: 250px;
+    width: 220px;
+    background-color: aqua;
+    border-radius: 10px;
+    overflow: hidden;
+    display: inline-block;
+    position: relative;
+    /* padding: 5px; */
+}
+.section2 .child
+{
+   
+    
+    
+    /* margin: 10px ; */
+    height: 100%;
+    width: 100%;
+    /* height: 220px; */
+    /* width: 190px; */
+    background-color: #e84545;
+    padding: 13px;
+    transition: all 2s;
+   
+    
+}
+.section2 .child i
+{
+    /* margin-bottom: 40px; */
+    font-size: 70px;
+}
+.section2 .child p
+{
+    margin-top: 10px;
+}
+.section2  .position
+{
+    height: 0px;
+    bottom: 0px;
+    width: 100%;
+    position: absolute;
+    background-color: red;
+    transition: all 1s;
+}
+
+.section2:hover .child
+{
+    transform: scale(1.05);
+    /* background-color: rgb(252, 250, 250); */
+    /* height: 100%; */
+    /* width: 100%; */
+    box-shadow: 10px 10px 50px gray;
+    background-color: yellow;
+
+
+}
+.MainSection li a:hover
+{
+    /* transform: translate(10px); */
+    transform: scale(1.9);
+    
+    color: rgb(247, 255, 3);
+    text-decoration: underline;
+    font-weight: bold;
+    /* font/-size: 20px; */
+}
+
+.MainSection nav button:hover
+{
+  background-color: rgb(88, 226, 114);
+}
+
+.section2 .child .fa-sliders
+{
+    color: rgb(190, 216, 43);
+    font-size: 50px;
+}
+
+
+/* section2 end */
+
+
+
+/* section3 start */
+
+
+
+.section3
+{
+    height: 300px;
+    width: 300px;
+    /* background-color: rgba(255, 255, 0, 0.305); */
+    padding: 30px;
+    /* overflow: hidden; */
+   
+}
+.section3 .perent
+{
+    height: 250px;
+    width: 250px;
+    border-radius: 100%;
+   
+    position: relative;
+    overflow: hidden;
+}
+.section3 .perent 
+{
+    /* overflow: hidden; */
+   
+}
+
+.section3 .perent  .img
+{
+    height: 100%;
+    width: 100%;
+}
+.section3 .perent .img img{
+    height: 100%;
+    width: 100%;
+    border-radius: 100%;
+    transition: all 2s;
+}
+.section3 .perent .child
+{
+    background-color: rgba(10, 10, 10, 0.547);
+    height: 0%;
+    width: 100%;
+
+    border-radius: 100%;
+    position: absolute;
+    top: 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    transition: height .4s;
+    overflow: hidden;
+}
+.section3 .perent .child .child-content
+{
+    
+}
+.edit
+{
+    font-size: 20px;
+    color: #ede6e6;
+}
+
+.section3 :hover  .child
+{
+    height: 100%;
+    
+}
+
+
+.section4
+
+{
+    /* margin: 0px auto; */
+    height: 400px;
+    width: 500px;
+    background-color: yellow;
+    position: relative;
+    display: inline-block;
+    
+}
+.section4 img
+{
+    height: 100%;
+    width: 100%;
+}
+.section4 .child
+{
+    display: flex;
+    justify-content: space-between;
+    height: 0%;
+    width: 100%;
+    background-color: rgba(249, 249, 249, 0.76);
+    position: absolute;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    bottom: 0px;
+    /* color: white; */
+    overflow: hidden;
+    transition: all .5s .2s;
+
+}
+
+.section4 .child1 
+{
+    margin-top: 20px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    height: 100%;
+    align-items: center;
+    color: rgb(1, 1, 1);
+    font-weight: bold;
+    margin-left: 20px;
+    margin-top: 8px;
+    
+}
+.section4 .child2
+{
+    width: 15%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.section4:hover .child
+{
+  height: 20%;
+  /* color: white; */
+}
+.section4 .sec4
+{
+    font-size: 20px;
+    color: rgb(8, 8, 8);
+}

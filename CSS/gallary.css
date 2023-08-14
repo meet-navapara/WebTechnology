@@ -1,0 +1,122 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,body
+{
+    width: 100%;
+}
+.options
+{
+
+    margin-top: 100px   ;
+    display: flex;
+    width: 23%;
+    justify-content: space-between;
+    margin-left:600px;
+}
+.options h1
+{
+    padding: 10px;
+    text-transform: uppercase;
+    font-size: 19px;
+}
+.main{
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* height: 1000px; */
+    width: 90%;
+
+    margin: 34px auto;
+}
+.main .section2
+{
+    /* height: 50px; */
+    width: 30%;
+    margin: 20px;
+    /* margin: 20px auto; */
+    /* padding: 60px; */
+}
+.main .section2 .perent
+{
+  
+    height: 280px;
+    width: 380px;
+    position: relative;
+    overflow: hidden;
+    /* background-color: rgb(145, 11, 11); */
+}
+.section2 .perent img
+{
+    height: 100%;
+    width: 100%;
+}
+.main .section2 .perent .child
+{
+    height: 90%;
+    width: 90%;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.759);
+    top: 13px;
+    left: 13px;
+    color: aliceblue;
+    display: flex;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;   
+    transition: all .6s; 
+    opacity: 0;
+
+}
+.main .section2 .perent .child p
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.main .section2 .perent .child i
+{
+    font-size: 30px;
+}
+
+.main .section2 .perent .child::after
+{
+    content: "";
+    /* background-color: aliceblue; */
+    height: 50px;
+    width: 50px;
+    border: 3px solid white;
+    position: relative;
+    left: 123px;
+    border-left: none;
+    border-top: none;
+}
+.main .section2 .perent .child::before
+{
+    content: "";
+    /* background-color: aliceblue; */
+    height: 50px;
+    width: 50px;
+    border: 3px solid white;
+    position: relative;
+    right:109px;
+    border-right: none;
+    border-bottom: none;
+}
+
+.main .section2 .perent:hover .child
+{
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 1;
+    /* font-size: 10px; */
+}

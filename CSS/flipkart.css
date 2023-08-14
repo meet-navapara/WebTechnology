@@ -1,0 +1,480 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html,body
+{
+    width: 100%;
+}
+header{
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+    height: 190px;
+    width: 100%;
+    /* background-color: yellow; */
+}
+
+header .firsthalf
+{
+    display: flex;
+    height: 36%;
+    width: 100%;
+    background-color: #047bd5;
+    /* justify-content: ; */
+}
+
+.firsthalf .logo
+{
+    margin-left: 10%;
+    margin-top: 5px;
+    height: 80%;
+    width: 120px;
+}
+.firsthalf .logo img
+{
+    height: 100%;
+    width: 100%;
+}
+.firsthalf .search
+{
+    margin-left: 2%;
+    margin-top: 15px;
+    height: 60%;
+    width: 450px;
+border: none;
+    border-radius: 4px;
+display: flex;
+position: relative;
+}
+.firsthalf .search input
+{
+    border-radius: 4px;
+    height: 100%;
+    border: none;
+    outline: none;
+    width: 450px;
+}
+.firsthalf .search button{
+    position: absolute;
+    right: 0px;
+    height: 100%;
+    width: 10%;
+    border: none;
+    border-radius: 0px 4px 4px 0px;
+    background-color:transparent;
+}
+.searchbutton
+{
+color: #047bd5;
+    font-size: 25px;
+}
+
+.firsthalf .button 
+{
+
+    margin-left: 1%;
+    margin-top: 18px;
+    height: 50%;
+    width: 140px;
+    border: none;
+}
+.firsthalf .button button
+{
+    /* background-color: white */
+    height: 100%;
+    border: none;
+    width: 100%;
+    font-weight: bold;
+    border-radius: 4px;
+    background-color: white;
+    color: #047bd5;
+    padding: 10px;
+}
+.firsthalf>h4{
+    margin-left: 3%;
+    margin-top: 26px;
+    color: white;
+}
+
+.firsthalf select
+{
+    margin-left: 3%;
+    margin-top: 26px;
+    height: 20px;
+    width: 60px;
+    background-color: #047bd5;
+    color: white;
+    font-weight: bold;
+    border: none;
+}
+.firsthalf .cart
+{
+    margin-left: 3%;
+    margin-top: 26px;
+    /* margin-right: 16px; */
+    display: flex;
+    /* justify-content: space-evenly; */
+    /* align-items: center; */
+    height: 100%;
+    width: 100px;
+    /* border: 1px solid red; */
+}
+.shoppingcart
+{
+    color: white;
+}
+.firsthalf .cart .cartlogo
+{
+    
+    height: 30%;
+    width: 30%;
+
+}
+.firsthalf .cart .cartlogo img
+{
+    height: 100%;
+    width: 100%;
+}
+
+
+.firsthalf .cart .cart-content h4
+{
+    margin-left: -5px;
+    color: white;
+
+}
+header .secondhalf
+{
+    box-shadow: 1px 3px 1px lightgray;
+    color: white;
+    background-color: white;
+    height: 64%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.margine-left
+{
+    margin-left: 90px;
+}
+.margine-right
+{
+    margin-right: 100px;
+}
+.secondhalf .child
+{
+    height: 100%;
+    width: 6.5%;
+    /* border: 1px solid red; */
+}
+.secondhalf .child .img-class
+{
+    height: 70%;
+    width: 100%;
+    /* border: 1px solid orange; */
+}
+.secondhalf .child .img-class img
+{
+    height: 100%;
+    width: 100%;
+}
+.secondhalf .child .name-class
+{
+    height: 30%;
+    width: 100%;
+}
+.secondhalf .child .name-class h3
+{
+    margin-top: 7px;
+    color: black;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section1
+{
+    margin: 30px auto;
+    height: 300px;
+    width: 97%;
+    /* border: 1px solid red; */
+    display: flex;
+    position: relative;
+}
+.section1 img
+{
+    height: 100%;
+    width: 100%;
+}
+
+.section1  .button1
+{
+    border-radius: 0px 10px 10px 0px;
+    background-color: white;
+    height: 100px;
+    width: 3%;
+    position: absolute;
+    top: 33%;
+}
+.section1  .button2
+{
+    border-radius: 10px 0px 0px 10px;
+    
+    background-color: white;
+    height: 100px;
+    width: 3%;
+    position: absolute;
+    top: 33%;
+    right: 0px;
+}
+button
+{
+    border: none;
+}
+
+
+.section2
+{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+    margin-bottom: 30px;
+    height: 330px;
+    width: 100%;
+    border-radius: 4px;
+    /* background-color: red; */
+}
+.section2 .mainperent
+{
+    border-radius: 4px;
+    height: 100%;
+    width: 18%;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 5px 5px 40px gray;
+}
+.section2 .mainperent .perent
+{
+    height: 100%;
+    width: 100%;
+    background-color:transparent;
+    transition: all .4s;
+    
+   
+
+}
+.iconmain
+{
+    /* margin-top: 10px; */
+}
+
+.section2 .mainperent .perent .icon{
+ 
+    position: relative;
+    top: 20px;
+    left: 10px;
+   
+    height: 25%; 
+     width: 25%;
+    /* border: 1px solid green; */
+    border-radius: 100%;
+    background-color: #047bd5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    
+}
+.section2 .mainperent .perent .icon i{
+   
+   
+    border-radius: 100%;
+    /* padding: 20px; */
+}
+
+.iconcolor
+{
+    color: rgb(254, 253, 253);
+    font-size: 40px;
+}
+.section2 .mainperent .perent .content 
+{
+    padding: 10px;
+    margin-top: 30px;
+    width: 100%;
+    height: 55%;
+}
+.section2 .mainperent .perent .content h1
+{
+    margin-top: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.section2 .mainperent .perent .content p
+{
+    margin-top: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.section2 .mainperent .effect
+{
+    height: 20%;
+    width: 20%;
+    background-color: rgba(0, 255, 255, 0.386);
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    border-radius: 0px 0px 0px 60px;
+    overflow: hidden;
+    transition: all .3s;
+    z-index: -1;
+    /* z-index: -1; */
+}
+
+.mainperent:hover .effect
+{
+    height: 120%;
+    width: 120%;
+    /* position: relative; */
+    
+    background-color: #047bd5;  
+}
+.mainperent:hover .perent .icon
+{
+    /* background-color: white; */
+}
+.mainperent:hover .perent .icon i
+{
+    color: rgb(6, 6, 6);
+}
+.mainperent:hover .perent
+{
+   color: white;
+  
+   position: relative;
+}
+
+.section3
+{
+    margin-top: 100px;
+    height: 300px;
+    width: 100%;
+    color: #047bd5;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 50px;
+    
+}
+
+.section3 .perent
+{
+    border-radius: 10px;
+    height: 100%;
+    width: 18%;
+    color: aliceblue;
+    overflow: hidden;
+   
+
+}
+.section3 .perent img
+{
+    height: 99%;
+    width: 99%;
+    filter: grayscale(100%);
+    /* filter: drop-shadow(10px 10px 10px red); */
+    transition: all .4s;
+}
+.perent:hover img
+{
+    /* transform: scale(1); */
+    filter: none;
+}
+
+
+.section4
+{
+    height: 500px;
+    width: 100%;
+    
+}
+.section4 .perent
+{
+    margin-left: 100px;
+    height: 280px;
+    width: 380px;
+    position: relative;
+    overflow: hidden;
+    /* background-color: rgb(145, 11, 11); */
+}
+.section4 .perent img
+{
+    height: 100%;
+    width: 100%;
+}
+.section4 .perent .child
+{
+    height: 90%;
+    width: 90%;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.759);
+    top: 13px;
+    left: 13px;
+    color: aliceblue;
+    display: flex;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;   
+    transition: all 3s; 
+    opacity: 0;
+
+}
+.section4 .perent .child p
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.section4 .perent .child i
+{
+    font-size: 30px;
+}
+
+.section4 .perent .child::after
+{
+    content: "";
+    /* background-color: aliceblue; */
+    height: 50px;
+    width: 50px;
+    border: 3px solid white;
+    position: relative;
+    left: 123px;
+    border-left: none;
+    border-top: none;
+}
+.section4 .perent .child::before
+{
+    content: "";
+    /* background-color: aliceblue; */
+    height: 50px;
+    width: 50px;
+    border: 3px solid white;
+    position: relative;
+    right:109px;
+    border-right: none;
+    border-bottom: none;
+}
+
+.section4 .perent:hover .child
+{
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 1;
+    /* font-size: 10px; */
+}

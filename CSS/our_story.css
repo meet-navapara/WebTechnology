@@ -1,0 +1,173 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,body
+{
+    width: 100%;
+}
+
+.section2
+{
+    width: 85%;
+    height: 500px;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    margin: 90px auto;
+
+}
+.section2 .img
+{
+    width: 49%;
+}
+.section2 .img img
+{
+    height: 100%;
+    width: 100%;
+}
+.section2 .content
+{
+    width: 49%;
+    
+}
+.section2 .content h2
+{
+    font-size: 26px;
+    margin-top: 20px;
+    margin-bottom:10px ;
+    font-family: "Raleway", sans-serif;
+}
+
+.section2 .content p
+{
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.section3
+{
+    width: 85%;
+    height: 430px;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+    /* flex-direction: row-reverse; */
+    margin: 90px auto;
+}
+.section3 .img
+{
+    width: 49%;
+}
+.section3 .img img
+{
+    height: 100%;
+    width: 100%;
+}
+.section3 .content
+{
+    width: 49%;
+}
+.section3 .content h3
+{
+    font-size: 23px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: "Raleway", sans-serif;
+}
+.section3 .content p
+{
+    font-size: 18px;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+.section3 .content ul li
+{
+    margin-bottom: 10px;
+    font-size: 20px;
+    list-style-type: none;
+}
+.section4
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+
+    margin: 30px auto;
+}
+.section4 .main
+{
+    width: 23%;
+
+}
+.section4 .main .img
+{
+    width: 100%;
+    position: relative;
+}
+.section4 .main h1
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: "Raleway", sans-serif;
+}
+.section4 .main p
+{
+    margin-bottom: 10px;
+    color: rgb(130, 127, 127);
+}
+.section4 .main .img .effect
+{
+    height: 0%;
+    width: 100%;
+    background-color: #008df194;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    transition: all .5s;
+    overflow: hidden;
+}
+.section4 .main .img .effect i
+{
+    margin-left: -10px;
+
+}
+
+.section4 .main .img img
+{
+    height: 100%;
+    width: 100%;
+}
+
+.section4 .main:hover .effect
+{
+    height: 13%;
+}
+.last
+{
+    position: relative;
+    left: 10px;
+    top: 20px   ;
+}
+.faa
+{
+    font-size: 25px;
+    color: white;
+}
+
+.section4 .main .p
+{
+    color: #008df1;
+    font-size: 16px;
+}
+
+.tick
+{
+    color: #008df1;
+    font-weight: 100;
+}

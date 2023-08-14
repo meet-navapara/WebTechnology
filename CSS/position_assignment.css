@@ -1,0 +1,374 @@
+
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+html,body
+{
+    width: 100%;
+}
+/* section1 start */
+.section   
+{
+    /* z-index: -1; */
+        /* height: ; */
+        width: 100%;
+        height: 100%;
+    
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        
+        
+}
+.section1
+{
+    margin-top: 10px;
+   border-radius: 10px;
+    margin-bottom: 50PX;
+    /* margin: 0px auto; */
+    height: 300px;
+    width: 420px;
+    border-radius: 16px;
+    position: relative;
+  
+}
+.section1 img
+{
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
+.section1 .child
+{
+  /* padding: 30px; */
+  border-radius: 10px;
+    height: 100%;
+    width: 0%;
+    background-color: #6b562d53;
+    position: absolute;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    bottom: 0px;
+    right: 0px;;
+    /* color: white; */
+    overflow: hidden;
+    transition: all .5s .2s;
+
+}
+
+.section1 .child1 
+{
+  height: 30px;
+  width: 60px;
+  
+   position: absolute;
+
+   bottom: 44px;
+   left: 185px;
+    align-items: center;
+    color: rgb(255, 254, 254);
+    font-weight: bold;
+ 
+    
+}
+.section1 .child1 p{
+   
+    text-align: center;
+}
+.section1 .child2 .child-content
+{
+    height: 90%;
+    width: 40%;
+    background-color: white;
+    border-radius: 100%;
+}
+.section1 .child2 .child-content i
+{
+    position: relative;
+    top: 10px;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+.section1 .child2 
+{
+    width: 120px;
+    height: 53px;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-evenly
+    ;
+    position: absolute;
+    left: 167px;
+    top: 110px;
+    /* align-items: center; */
+}
+
+
+
+.section1:hover .child
+{
+  
+  width: 100%;
+ 
+}
+.section1 .sec4
+{
+    font-size: 25px;
+    color: rgb(251, 8, 8);
+}
+
+/* section1 ends  */
+/* section2 :start  */
+
+.section2
+{
+    /* height: 100%;
+    width: 100%; */
+}
+.section2 h1
+{
+    text-align: center;
+    color: rgb(81, 81, 80);
+    margin-bottom: 10px;
+    font-size: 40px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    /* display: block; */
+}
+.section2 p{
+    /* margin-top: 100px; */
+    /* display: block; */
+    text-align: center;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 29px;
+
+}
+.section2 .perent .child .background
+{
+    height: 0%;
+    width: 100%;
+    background-image: linear-gradient(rgba(100, 53, 4, 0) , rgba(100, 53, 4, 0.781));
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    bottom: 0px;
+}
+.section2 .perent
+{
+    padding: 10px;
+    width: 100%;
+    height: 410px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.section2 .perent .child
+{
+    height: 300px;
+    width: 300px;
+    position: relative;
+
+}
+.section2 .perent .child img
+{
+    height: 100%;
+    width: 100%;
+}
+
+.section2 .perent .child .vertical
+{
+    height: 100%;
+    width: 0px;
+    bottom: 0px;
+  /* background-color: black; */
+    background-image: linear-gradient(rgba(100, 54, 4, 0.618) , rgba(100, 54, 4, 0));
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    display: block;
+    transition: all .5s;
+    /* padding-left: 15px; */
+}
+.section2 .perent .child .vertical div
+{
+    margin-top: 13px;
+    margin-left: 15px;
+    overflow: hidden;
+}
+
+
+.logo
+{
+    font-size: 20px;
+    color: white;
+}
+
+.section2 .perent .child .bottom
+{
+    height: 0%;
+    width: 100%;
+  
+    position: absolute;
+    bottom: 0px;
+    transition: all .5s;
+}
+.section2 .bottom h1{
+    font-size: 23px;
+    text-align: center;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    overflow: hidden;
+    margin-top: 70px;
+
+}
+.section2 .bottom h3
+{
+    overflow: hidden;
+    font-style: italic;
+    text-align: center;
+    font-size: 15px;
+    color: white;
+}
+
+.section2 .child:hover .vertical
+{
+    width: 45px;
+}
+
+
+.section2 .child:hover .bottom
+{
+    height: 50%;
+}
+.section2 .child:hover .background
+{
+    height: 100%;
+}
+
+
+/* section2 ends  */
+/* .section3 start  */
+.section3  
+{
+        /* height: ; */
+        width: 100%;
+        height: 100%;
+    
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        
+        
+}
+.section3 
+{
+    margin-top: 10px;
+    margin-bottom: 50PX;
+    /* margin: 0px auto; */
+    height: 300px;
+    width: 420px;
+    border-radius: 16px;
+    position: relative;
+  
+}
+.section3  img
+{
+    height: 100%;
+    width: 100%;
+    transition: all .5s .2s;
+    overflow: hidden;
+}
+.section3 .child
+{
+  /* padding: 30px; */
+  
+    height: 0%;
+    width: 100%;
+    background-color: #08f3a1fe;
+    position: absolute;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    bottom: 0px;
+    
+    /* color: white; */
+    overflow: hidden;
+    display: flex;
+  flex-wrap: nowrap;
+    justify-content: space-around;
+    transition: all .5s .2s;
+
+}
+
+.section3 .child1 
+{
+
+  height: 70px;
+  width: 60%;
+  
+   /* position: absolute; */
+   
+
+   /* bottom: 44px; */
+   /* left: 185px; */
+    /* align-items: center; */
+    color: rgb(255, 254, 254);
+    font-weight: bold;
+ 
+    
+}
+
+.section3  .child2 
+{
+    display: flex;
+    align-items: center;
+    width: 30%;
+    height: 70px;
+
+    /* display: flex;/ */
+    justify-content: space-around;
+    /* position: absolute; */
+    /* left: 167px; */
+    /* top: 110px; */
+    /* align-items: center; */
+}
+
+.section3 h1
+{
+    margin-top: 6px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 25px;
+}
+.section3 p
+{
+    font-size: 17px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.section3:hover .child
+{
+  height: 27%;
+  
+ 
+}
+.section3:hover img
+{
+    transform: translatey(-30px);
+}
+
+.section3logo{
+    font-size: 30px;
+    color: white;
+}
+
+.last
+{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+/* section3 ends  */
