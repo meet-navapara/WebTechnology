@@ -4,9 +4,8 @@
 //? 3: let
 
 
-//* 1: var.......
-//^ all things are possible in this var keyword....declaration,re-declaration,initialization,re-initialization,re-declaration & re-initialization
-
+//* 1: var
+//^ all things are possible 
 //! declaration
 var a;
 //! initialization
@@ -39,3 +38,15 @@ console.log("b "+b);
 console.log("b "+b);
 
 
+//* 3: const
+//^ declaration,initialization,re-declaration,re-initialization,re-declaration & re-initialization is not possible  
+//! declaration 
+// const a;// not possible
+//! initialization
+// b=10;//not possible
+//! re-declaration
+//const b;//not possible
+//! re-declaration & re-initialization
+// const b = 10;//not possible
+
+const c =10;//~ only this thing is possible
