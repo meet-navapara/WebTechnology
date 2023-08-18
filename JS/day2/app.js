@@ -4,17 +4,38 @@
 //? 3: let
 
 
-//* 1: var.................................
+//* 1: var.......
+//^ all things are possible in this var keyword....declaration,re-declaration,initialization,re-initialization,re-declaration & re-initialization
 
 //! declaration
 var a;
 //! initialization
 a=10;
-console.log(a);
+console.log("a "+ a);
 //! re-initialization
 a=100;
-console.log(a);
+console.log("a "+a);
 //! re-declaration & re-initialization
 var a;
 a=200;
-console.log(a);
+console.log("a "+a);
+
+
+//* 2: let
+//^ re-declaration , re-declaration & re-initialization not possible
+
+//! declaration
+let b=10;
+//! initialization
+// b=10;
+console.log("b "+b);
+//! re-initialization
+b=100;
+console.log("b "+b);
+//! re-declaration
+//let b;//not possible
+//! re-declaration & re-initialization
+// let b = 10;//not possible
+console.log("b "+b);
+
+
