@@ -1,0 +1,66 @@
+img
+{
+    height: 60px;
+    width: 150px;
+}
+
+
+table th
+{
+    font-size: 20px;
+    align-items: center;
+
+}
+.b
+{
+    font-weight: 700;
+    padding: 20px;
+}
+
+
+table tr .company
+{
+    width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /* border: none; */
+    padding: 34px;
+    box-sizing: border-box;
+}
+
+table tr .company img
+{
+    margin: 5px;
+    margin-top: 20px;
+
+}
+
+
+table tr
+{
+    padding: 30px;
+    height: 200px;
+}
+h1
+
+{
+    text-align: center;
+    margin-top: 40px;
+}
+.m
+{
+    color: rgb(11, 137, 11);
+}
+.e
+{
+    color: rgb(205, 205, 12);
+}
+.r
+{
+    color: aqua;
+}
+.n
+{
+    color: lightgreen;
+}
