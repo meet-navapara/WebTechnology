@@ -31,11 +31,11 @@ console.log(h);
 
 
 
-//&
+//& examples
 console.log("hello");
 console.log(10-"12"-"12");
 console.log(9 -"9" +9);
-// console.log(window);
+console.log(window);
 console.log(typeof 3 ); 
 console.log(typeof "hello");
 console.log(typeof 1*3);
@@ -53,3 +53,10 @@ console.log(ab);
 
 console.log(window);
 console.log(this);
+
+// var first = Number(prompt("enter value"))
+// console.log(first);
+
+
+console.log("3"+ + 3);
+console.log(3 + + "3");
