@@ -1,0 +1,27 @@
+*
+{
+    box-sizing: border-box;/
+}
+
+button{
+    background-color: red;
+    color: wheat;
+    height: 60px;
+    width: 100px;
+    padding: 20px;
+}
+a
+{
+    border: 2px solid red;
+    padding: 20px;
+}
+div
+{
+    height: 50px;
+    width: 100px;
+    border: 2px solid yellow;
+    background-color: aqua;
+    padding: 50px;
+
+
+}
