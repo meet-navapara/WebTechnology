@@ -124,5 +124,55 @@
 //         }
 //     }
 // }
+// }
+// fect(50);
+
+function Agecal()
+{
+    let todayDate=new Date()
+    let UserDate=document.getElementById('date').value
+    let birthdate = new Date(UserDate)
+    // console.log(birthdate);
+    let diffYear = todayDate.getFullYear()-birthdate.getFullYear()
+    if(todayDate.getMonth()<=birthdate.getMonth())
+    {
+        diffYear=diffYear-1
+    }
+    // console.log(diffYear);
+    let diffMonth=todayDate.getMonth()-birthdate.getMonth()
+    if(diffMonth<=0)
+    {
+        diffMonth=11+diffMonth
+    }
+    // console.log(diffMonth);
+    diffDay=birthdate.getDate()-todayDate.getDate()
+    console.log(diffDay);
+   
+    if(diffDay<0)
+    {
+        if(todayDate.getMonth()==0||todayDate.getMonth()==2||todayDate.getMonth()==5||todayDate.getMonth()==6||todayDate.getMonth()==7||todayDate.getMonth()==9||todayDate.getMonth()==11)
+        {
+            diffDay=31+diffDay
+        }
+        else if(todayDate.getMonth==1)
+        {
+            diffDay=28+diffDay
+        }
+        else
+        {
+            diffDay=30+diffDay
+        }
+    
+    }
+    // console.log(diffDay);
+    if(diffMonth==11&&diffDay==0)
+    {
+        diffMonth=0
+        diffYear=diffYear+1
+    }
+
+    console.log(diffDay);
+    console.log(diffMonth);
+    console.log(diffYear);
+    
 }
-fect(50);

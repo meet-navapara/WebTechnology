@@ -4,8 +4,217 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+    integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+    <!-- <link rel="stylesheet" href="../CSS/box.css"> -->
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        .cloud
+        {
+            font-size: 40px;
+            color: rgb(24, 24, 219);
+        }
+        .sun
+        {
+            color: yellow;
+            font-size: 40px;
+        }
+        .td{
+            background-color: black;
+            color: red;
+            height: 50px;
+            width: 100px;
+            padding: 30px;
+        }
+
+        .main
+        {
+            height: 250px;
+            width: 100%;
+            display: flex;
+          
+            margin: 30px;
+            justify-content: space-evenly;
+            
+
+        }
+        .main .img
+        {
+            width: 10%;
+            height: 100%;
+    
+
+        }
+        .main .img img
+        {
+            height: 100%;
+            width: 100%;
+        }
+        .main .data
+        {
+            margin-left: 30px;
+            width: 50%;
+            height: 100%;
+            padding: 30px;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-weight: bold;
+           
+        }
+       
+
+        .main .data p
+        {
+            font-size: 15px;
+            color: rgb(68, 79, 79);
+            margin-bottom: 20px;
+        }
+        .main .data h2
+        {
+            text-align: center;
+            color: rgb(29, 29, 167);
+        }
+
+        .main .price
+        {
+            width: 30%;
+            display: flex;
+            text-align: center;
+            align-items: center;
+            
+        }
+        .main .price h1
+        {
+            align-items: center;
+            color: red;
+            position: relative;
+            left: 190px;
+        }
+        .c-work{
+    
+        border: 1px solid gray;
+        height: 260px;
+        width: 250px;
+        font-size: 14px;
+        font-weight: bold;
+        color: rgb(85, 2, 134);
+        margin: 10px;
+        
+    
+    /* background-color: red; */
+        }
+        .c-work h1, .c-work p
+        {
+            padding-left: 10px;
+        }
+        .c-work .c-work-img 
+        {
+            height: 200px;
+            width: 100%;
+
+        }
+        .c-work .c-work-img img
+        {
+            height: 200px;
+            width: 250px;
+
+        }
+
+    </style>
+
+  
 </head>
 <body>
+<div>
+   
+    <!-- <div id="img"><img src="https://cdn.pixabay.com/photo/2023/09/17/19/10/building-8259184_640.jpg" alt=""></div> 
+
+    <button onclick="show()">show</button>
+    <button onclick="hide()">hide</button> -->
+
+    <!-- <pre>
+
+
+    </pre>
+
+    <div id="img2"><img src="https://cdn.pixabay.com/photo/2023/09/17/19/10/building-8259184_640.jpg" alt=""></div>
+    <button onclick="toggle()" id="btn">hide</button> --> 
+
+
+
+
+
+     <!-- <section style="display: flex;"  id="seaction">
+        <button onclick="pre()" id="pre">previous</button>
+        <div ><img src="https://cdn.pixabay.com/photo/2023/09/17/19/10/building-8259184_640.jpg" alt="" id="sliderImg"></div>
+        <button onclick="next()" id ='next'>next</button>
+    </section> -->
+    <!-- <h1>counter :<span id="counter"></span></h1>
+    <button id="btn">increment</button>
+    <button onclick="decrement()" id="stop">stop increment</button> -->
+    
+<!-- <input type="text" placeholder="Enter Product Name" name="search" id="search" onkeyup="search()"> -->
+
+<!-- <button id="search" onclick="search()" type="submit">search</button> -->
+    <!-- <table>
+        <thead>
+            <tr>
+                <th>no</th>
+                <th>name</th>
+                <th>price</th>
+               
+            </tr>
+        </thead>
+        <tbody id="details">
+
+        </tbody>
+        <tfoot>
+            <th>Total</th>
+            <th></th>
+            <th id="total"></th>
+        </tfoot>
+    </table> -->
+
+    <section id="Userdetails" style="display: flex; flex-wrap: wrap; justify-content: space-evenly;">
+    
+      
+    
+</section>
+
+
+    <section id="ProductDesign">
+      <!-- <div class="main">
+        <div class="img">
+            <img src="https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg" alt="">
+        </div>
+        <div class="data">
+            <h1></h1>
+            <p>Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday</p>
+           
+        </div>
+        <div class="price">
+            <h1></h1>
+        </div>
+      </div> -->
+    </section>
+    <input type="text" id="cityname">
+    <button onclick="weather()">Search</button>
+    <div id="weatherdata"></div>
+  <!-- <button id="dark" onclick="theam()">dark</button> -->
+
+  <input type="search" id="MovieName">
+  <button onclick="MovieData()">Search</button>
+
+
+
     <script src="./App.js"></script>
+
+    
 </body>
 </html>

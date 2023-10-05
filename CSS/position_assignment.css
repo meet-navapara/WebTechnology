@@ -156,6 +156,7 @@ html,body
     background-size: 100% 100%;
     position: absolute;
     bottom: 0px;
+    visibility: v;
 }
 .section2 .perent
 {
