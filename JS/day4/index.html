@@ -3,9 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Registration</title>
+    <link rel="stylesheet" href="./Style.css">
 </head>
 <body>
+
+   
+    <div>
+        <h1>Registration form</h1>
+    <form action="" onsubmit="return validation(event)">
+
+     <input type="text" placeholder="Enter Name" id="name"><br>
+     <span id="Username"></span><br>
+   <input type="password" placeholder="Enter Password" id="pass1"><br>
+   <span id="Password"></span><br>
+   <input type="text" placeholder="Mobile Number" id="Mobile"><br>
+   <span id="MobileNumber"></span><br>
+     <label for="">Profession :</label>
+     <select name="Profession" id="Profession" >
+        <option value="Employee">Employee</option>
+        <option value="Bussiness">Bussiness</option>
+        <option value="Self-Employee">Self-Employee</option>
+     </select><br><br>
+
+      <button type="submit">Submit</button>
+    </form>
+
+ <p>Already have an account ?   <a href="./login.html">Login</a></p>
+
+ </div>
     <script src="./App.js"></script>
 </body>
 </html>

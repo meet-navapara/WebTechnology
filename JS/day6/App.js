@@ -127,52 +127,253 @@
 // }
 // fect(50);
 
-function Agecal()
-{
-    let todayDate=new Date()
-    let UserDate=document.getElementById('date').value
-    let birthdate = new Date(UserDate)
-    // console.log(birthdate);
-    let diffYear = todayDate.getFullYear()-birthdate.getFullYear()
-    if(todayDate.getMonth()<=birthdate.getMonth())
-    {
-        diffYear=diffYear-1
-    }
-    // console.log(diffYear);
-    let diffMonth=todayDate.getMonth()-birthdate.getMonth()
-    if(diffMonth<=0)
-    {
-        diffMonth=11+diffMonth
-    }
-    // console.log(diffMonth);
-    diffDay=birthdate.getDate()-todayDate.getDate()
-    console.log(diffDay);
+// function Agecal()
+// {
+//     let todayDate=new Date()
+//     let UserDate=document.getElementById('date').value
+//     let birthdate = new Date(UserDate)
+//     // console.log(birthdate);
+//     let diffYear = todayDate.getFullYear()-birthdate.getFullYear()
+//     if(todayDate.getMonth()<=birthdate.getMonth())
+//     {
+//         diffYear=diffYear-1
+//     }
+//     // console.log(diffYear);
+//     let diffMonth=todayDate.getMonth()-birthdate.getMonth()
+//     if(diffMonth<=0)
+//     {
+//         diffMonth=11+diffMonth
+//     }
+//     // console.log(diffMonth);
+//     diffDay=birthdate.getDate()-todayDate.getDate()
+//     console.log(diffDay);
    
-    if(diffDay<0)
-    {
-        if(todayDate.getMonth()==0||todayDate.getMonth()==2||todayDate.getMonth()==5||todayDate.getMonth()==6||todayDate.getMonth()==7||todayDate.getMonth()==9||todayDate.getMonth()==11)
-        {
-            diffDay=31+diffDay
-        }
-        else if(todayDate.getMonth==1)
-        {
-            diffDay=28+diffDay
-        }
-        else
-        {
-            diffDay=30+diffDay
-        }
+//     if(diffDay<0)
+//     {
+//         if(todayDate.getMonth()==0||todayDate.getMonth()==2||todayDate.getMonth()==5||todayDate.getMonth()==6||todayDate.getMonth()==7||todayDate.getMonth()==9||todayDate.getMonth()==11)
+//         {
+//             diffDay=31+diffDay
+//         }
+//         else if(todayDate.getMonth==1)
+//         {
+//             diffDay=28+diffDay
+//         }
+//         else
+//         {
+//             diffDay=30+diffDay
+//         }
     
-    }
-    // console.log(diffDay);
-    if(diffMonth==11&&diffDay==0)
-    {
-        diffMonth=0
-        diffYear=diffYear+1
-    }
+//     }
+//     // console.log(diffDay);
+//     if(diffMonth==11&&diffDay==0)
+//     {
+//         diffMonth=0
+//         diffYear=diffYear+1
+//     }
 
-    console.log(diffDay);
-    console.log(diffMonth);
-    console.log(diffYear);
+//     console.log(diffDay);
+//     console.log(diffMonth);
+//     console.log(diffYear);
     
+// }
+
+
+
+
+
+
+// console.log(a);
+// function bubbleSort()
+// {
+
+//     for (let j=0;j<a.length;j++)
+//     {
+//         for (let i = 0;i < a.length;i++) {
+           
+//             if(a[i] >= a[i+1])
+//             {
+//                 [a[i+1],a[i]]   =    [a[i],a[i+1]]
+//             } 
+//         }
+//     }
+//    console.log(a);
+  
+// }
+// bubbleSort()
+
+
+
+// function search()
+// {
+//     for(let i = 0;i<a.length;i++)
+//     {
+//         if(57 == a[i])
+//         {
+//             console.log(`57 is at ${i} position` );
+//            break; 
+//         }
+        
+        
+//     }
+// }
+
+// search()
+
+
+// function BinarySearch(x)
+// {
+    
+//     let low = 0;
+//     let high=a.length-1;
+//     let mid;
+//     while(high>=low)
+//     {
+//          mid = Math.trunc((high+low)/2)
+    
+//   let num=a[mid]
+//     if(num==x)
+//     {
+//        return mid
+//     }
+//     if(num>x)
+//     {
+//         high=mid-1
+//     }
+//     else
+//     {
+//         low = mid +1
+//     }
+
+// }
+// }
+// console.log(BinarySearch(1))
+
+// function InsertionSort()
+// {
+   
+//     for (let i = 0;i<a.length;i++)
+//     {
+//         let count =0;
+//         if(a[i]>a[i+1])
+//         {
+//             [a[i+1],a[i]]   =    [a[i],a[i+1]]
+//             count++;
+//         }
+       
+
+//     }
+//     console.log(a);
+// }
+// InsertionSort()
+
+// function insertionSort(arr) {
+//     for (let i = 1; i < arr.length; i++) {
+//       for (let j = i; j > 0; j--) {
+//         if (arr[j] < arr[j - 1]) {
+//           [arr[j], arr[j - 1]] = [arr[j - 1], arr[j]];
+//         } else {
+//           break;
+//         }
+//       }
+//     }
+//     return arr;
+//   }
+  
+//   const a = [1, 2, 4, 3, 5, 0, 6, 9, 8, 10, 0, 12];
+//   insertionSort(a);
+//   console.log(a);
+
+let a=[35,15,25,80,90,45]
+function InsertionSort()
+{
+for(let k=0;k<a.length;k++){
+    for(let j=0;j<a.length-k;j++)
+    {
+      for(let i=j;i>=0;i--)
+      {
+        if(a[j]<a[i])
+        {
+          let temp =a[j];
+          a[j]=a[i];
+          a[i]=temp
+        }
+      
+      }
+            
+        
+    }
 }
+    console.log(a);
+}
+// InsertionSort()
+
+
+
+// function quickSort(arr) {
+//   // console.log(arr);
+//   if (arr.length <= 1) {
+//     return arr;
+//   }
+
+//   let pivot = arr[0];
+//   let left = [];
+//   let leftindex=0;
+//   let rightindex=0;
+//   let right = [];
+
+//   for (let i = 1; i < arr.length; i++) {
+//     if (arr[i] < pivot) {
+//       left[leftindex]=arr[i]
+//       leftindex++;
+//     } else {
+//      right[rightindex]=arr[i]
+//      rightindex++;
+//     }
+//   }
+//   console.log(left,pivot,right);
+
+
+//   return [...quickSort(left), pivot, ...quickSort(right)];
+// }
+
+// let unsortedArray = [1,2,0,4,3,5,0,6,9,8,6,10,0,12,11];
+// let sortedArray = quickSort(unsortedArray);
+// console.log(sortedArray);
+
+
+function Quicksort()
+{
+  let pivot=a[0]
+  
+  let P;
+  let Q;
+  
+  for(let i=1;i<a.length;i++)
+  {
+    if(a[i]>pivot)
+    {
+     P=i
+     break; 
+    }
+  }
+  console.log(P);
+  for(let j=a.length-1;j>=0;j--)
+  {
+     if(a[j]<pivot)
+     {
+      Q=j
+      break;
+     }
+
+  }
+  console.log(Q);
+  if(P<Q)
+  [a[P],a[Q]]=[a[Q],a[P]]
+  else{
+    [a[Q],a[0]]=[a[0],a[Q]]
+  }
+  console.log(P,Q);
+  console.log(a);
+  // return Quicksort()s
+}
+console.log(Quicksort());
