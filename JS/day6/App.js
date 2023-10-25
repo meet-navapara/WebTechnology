@@ -132,19 +132,19 @@
 //     let todayDate=new Date()
 //     let UserDate=document.getElementById('date').value
 //     let birthdate = new Date(UserDate)
-//     // console.log(birthdate);
+    // console.log(birthdate);
 //     let diffYear = todayDate.getFullYear()-birthdate.getFullYear()
 //     if(todayDate.getMonth()<=birthdate.getMonth())
 //     {
 //         diffYear=diffYear-1
 //     }
-//     // console.log(diffYear);
+    // console.log(diffYear);
 //     let diffMonth=todayDate.getMonth()-birthdate.getMonth()
 //     if(diffMonth<=0)
 //     {
 //         diffMonth=11+diffMonth
 //     }
-//     // console.log(diffMonth);
+    // console.log(diffMonth);
 //     diffDay=birthdate.getDate()-todayDate.getDate()
 //     console.log(diffDay);
    
@@ -164,7 +164,7 @@
 //         }
     
 //     }
-//     // console.log(diffDay);
+    // console.log(diffDay);
 //     if(diffMonth==11&&diffDay==0)
 //     {
 //         diffMonth=0
@@ -282,38 +282,38 @@
 //   const a = [1, 2, 4, 3, 5, 0, 6, 9, 8, 10, 0, 12];
 //   insertionSort(a);
 //   console.log(a);
-
-let a=[35,15,25,80,90,45]
-function InsertionSort()
-{
-for(let k=0;k<a.length;k++){
-    for(let j=0;j<a.length-k;j++)
-    {
-      for(let i=j;i>=0;i--)
-      {
-        if(a[j]<a[i])
-        {
-          let temp =a[j];
-          a[j]=a[i];
-          a[i]=temp
-        }
+// function InsertionSort()
+// {
+  // for(let k=0;k<a.length;k++){
+    //     for(let j=0;j<a.length-k;j++)
+//     {
+//       for(let i=j;i>=0;i--)
+//       {
+//         if(a[j]<a[i])
+//         {
+//           let temp =a[j];
+//           a[j]=a[i];
+//           a[i]=temp
+//         }
       
-      }
+//       }
             
-        
-    }
-}
-    console.log(a);
-}
+
+//     }
+// }
+//     console.log(a);
+// }
 // InsertionSort()
 
 
 
 // function quickSort(arr) {
-//   // console.log(arr);
-//   if (arr.length <= 1) {
-//     return arr;
-//   }
+    
+//     if (arr.length <= 1) {
+//       console.log(arr.length);
+//       console.log(arr);
+//         return "";
+//       }
 
 //   let pivot = arr[0];
 //   let left = [];
@@ -323,57 +323,97 @@ for(let k=0;k<a.length;k++){
 
 //   for (let i = 1; i < arr.length; i++) {
 //     if (arr[i] < pivot) {
-//       left[leftindex]=arr[i]
+//         left[leftindex]=arr[i]
 //       leftindex++;
 //     } else {
 //      right[rightindex]=arr[i]
 //      rightindex++;
 //     }
 //   }
-//   console.log(left,pivot,right);
+
 
 
 //   return [...quickSort(left), pivot, ...quickSort(right)];
 // }
 
-// let unsortedArray = [1,2,0,4,3,5,0,6,9,8,6,10,0,12,11];
-// let sortedArray = quickSort(unsortedArray);
+// let arr = [1,2,0,4,3,5,0,6,9,8,6,10,0,12,11];
+// let sortedArray = quickSort(arr);
 // console.log(sortedArray);
 
 
-function Quicksort()
-{
-  let pivot=a[0]
-  
-  let P;
-  let Q;
-  
-  for(let i=1;i<a.length;i++)
-  {
-    if(a[i]>pivot)
-    {
-     P=i
-     break; 
-    }
-  }
-  console.log(P);
-  for(let j=a.length-1;j>=0;j--)
-  {
-     if(a[j]<pivot)
-     {
-      Q=j
-      break;
-     }
+// let a=[35,15,25,80,90,45]
 
-  }
-  console.log(Q);
-  if(P<Q)
-  [a[P],a[Q]]=[a[Q],a[P]]
-  else{
-    [a[Q],a[0]]=[a[0],a[Q]]
-  }
-  console.log(P,Q);
-  console.log(a);
-  // return Quicksort()s
+// function Quicksort(a)
+// {
+  
+  
+//   let pivot=a[0]
+  
+//   let P;
+//   let Q;
+  
+//   for(let i=1;i<a.length;i++)
+//   {
+//     if(a[i]>pivot)
+//     {
+//      P=i
+//      break; 
+//     }
+//   }
+//   console.log(P);
+//   for(let j=a.length-1;j>=0;j--)
+//   {
+//      if(a[j]<pivot)
+//      {
+//       Q=j
+//       break;
+//      }
+
+//   }
+//   console.log(Q);
+//   if(P<Q)
+//   [a[P],a[Q]]=[a[Q],a[P]]
+//   else{
+//     [a[Q],a[0]]=[a[0],a[Q]]
+//   }
+//   console.log(P,Q);
+//   console.log(a);
+
+ 
+// }
+// console.log(Quicksort(a));
+
+
+// let a=20
+// let student=
+// {
+//   a
+// }
+// console.log(student);
+
+
+
+let selection=[2,4,3,6,5,8,7,5,9]
+function SelectionSort(arr)
+{
+let min;
+for(let i=0;i<arr.length;i++)
+{
+
+  min=i;
+  for(let j=i+1;j<arr.length;j++)
+    { if(arr[j]<arr[min])
+      {
+        min=j
+      }  
+} 
+if(i != min)
+{
+  arr[i]=arr[i]+arr[min]
+  arr[min]=arr[i]-arr[min]
+  arr[i]=arr[i]-arr[min]
 }
-console.log(Quicksort());
+}
+console.log(arr);
+}
+SelectionSort(selection)
