@@ -230,7 +230,7 @@
 //     {
 //          mid = Math.trunc((high+low)/2)
     
-//   let num=a[mid]
+//     let num=a[mid]
 //     if(num==x)
 //     {
 //        return mid
